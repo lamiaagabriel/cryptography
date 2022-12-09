@@ -1,5 +1,5 @@
 /**
- * Encrypting using a word key
+ * Encrypting using a word key, (e.g. "sames")
  */
 
 #include <bits/stdc++.h>
