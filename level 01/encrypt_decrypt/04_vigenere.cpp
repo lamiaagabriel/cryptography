@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-    string key = "sesame", str;
-    cin >> str;
+    string key, str;
+    cin >> str >> key;
 
     for (int i = 0; i < str.length(); i++)
         str[i] = (str[i] + key[i % key.length()] - 2 * 'a') % 26 + 'a';
